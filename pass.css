@@ -1,0 +1,76 @@
+body {
+      background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXBrYnZxNHlmN2Fpb2R4MHRrOGxsejYwdncybXNtdGx5ZGowdnNwbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FrOU9tPbgAZtxV5mb/giphy.gif') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+
+    .container{
+      background: black;
+      padding: 30px;
+      border-radius: 12px;
+      width: 350px;
+      text-align: center;
+      border: 5px solid blue;
+    }
+
+    h2 {
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    .input{
+      margin: 10px;
+      text-align: center;
+    }
+
+    .checkboxes {
+      margin: 10px;
+      text-align: left;
+    }
+
+    .input label{
+      display: flex;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .checkboxes label {
+      display: flex;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: white;
+    }
+
+    button {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: 2px white solid;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: darkblue;
+    }
+
+    .output {
+      margin-top: 20px;
+      background-color: black;
+      padding: 10px;
+      border-radius: 6px;
+      font-weight: bold;
+      color: greenyellow;
+      border: 2px solid white;
+    }
+
+    .hidden {
+      display: none;
+    }
